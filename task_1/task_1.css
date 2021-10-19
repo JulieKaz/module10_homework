@@ -1,0 +1,19 @@
+.btn {
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+    background: #315efb;
+}
+.btn-text {
+    margin-right: 10px;
+}

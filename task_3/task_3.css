@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Roboto", Verdana, Arial, sans-serif;
+    font-size: 14px;
+}
+.chat {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    padding: 16px;
+    align-items: stretch;
+}
+.send_form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.message_input {
+    width: 100%;
+    font-family: "Roboto", Verdana, Arial, sans-serif;
+    font-size: 14px;
+    margin-right: 16px;
+    padding: 8px;
+    border: 4px solid rgb(146, 195, 226);
+    outline: none;
+}
+.button {
+    outline: none;
+    box-shadow: none;
+    width: 170px;
+    font-family: "Roboto", Verdana, Arial, sans-serif;
+    font-size: 14px;
+    border: 4px solid rgb(146, 195, 226);
+    background-color: rgb(146, 195, 226);
+    cursor: pointer;
+}
+.send {
+    margin-right: 16px;
+}
+.dialog {
+    height: 100%;
+    border: 4px solid rgb(146, 195, 226);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: auto;
+}
+.message {
+    border-radius: 8px;
+    padding: 8px;
+    border: 4px solid rgb(146, 195, 226);
+    margin: 10px;
+}
+.user {
+    align-self: flex-end;
+}
+.answer {
+    align-self: flex-start;
+}
+.status {
+    margin-left: 16px;
+}
